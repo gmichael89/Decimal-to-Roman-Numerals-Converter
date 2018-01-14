@@ -1,6 +1,6 @@
 # Roman Numeral Generator
 
-A generator to convert a decimal number into Roman numerals. There is a config file found in `config/app-config.json` where the number range is defined. The default range is set to 1-3999.
+A generator to convert a decimal number into Roman numerals. The config file `app.config.js` contains definitions for the allowed number ranges and the conversion table. The default range is set to 1-3999.
 
 The conversion function can be found in `src/generate.js` and is written as a single function export so that it can be easily utilised. The app currently uses the function as an input event handler and also as a test case.
 
