@@ -1,6 +1,6 @@
 import IsInRange from './utils/is-in-range'
 
-const AppConfig = require('../config/app-config.js');
+const AppConfig = require('../app.config.js');
 
 const { NumeralsTable } = AppConfig
 

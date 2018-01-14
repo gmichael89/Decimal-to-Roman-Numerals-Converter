@@ -1,4 +1,4 @@
-{
+module.exports = {
     "NumberRange": {
         "Min": 1,
         "Max": 3999
