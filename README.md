@@ -18,4 +18,8 @@ Alternatively, run `npm run start` in the console and navigate to http://localho
 
 Run `npm run test` to test the methods `src/generate.js` and `src/utils/is-in-range.js`.
 
-Test cases can be found in `tests/converter/*.js` and `tests/is-in-range/*.js`
+A pretest script runs the [Standard][standard-lint] linting tool before the main testing scripts to ensure that files within the `src/` directory are linted to industry-recognised standards.
+
+Test cases can be found in `tests/converter/*.js` and `tests/is-in-range/*.js`.
+
+[standard-lint]: https://standardjs.com
